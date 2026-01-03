@@ -1,0 +1,506 @@
+{
+    "profile": {
+        "name": "Hetvi Shah",
+        "title": "GenAI Engineer",
+        "bio": "GenAI Engineer with hands-on experience in building end-to-end AI solutions, including RAG-based chatbots, multilingual voice agents, and automated agent workflows. Specializing in LLM integration, tool-based agents, and AI backend development using LangChain, LangGraph, and Spring AI.",
+        "email": "hetvi4551@gmail.com",
+        "phone": "+91 8758033238",
+        "location": "India",
+        "socialLinks": {
+            "github": "https://github.com/ShahHetviIT",
+            "linkedin": "https://www.linkedin.com/in/hetvi-shah-58213222a/"
+        }
+    },
+    "skills": [
+        {
+            "name": "LangChain",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 90,
+            "order": 1
+        },
+        {
+            "name": "LangGraph",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 85,
+            "order": 2
+        },
+        {
+            "name": "Crew.ai",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 80,
+            "order": 3
+        },
+        {
+            "name": "Spring AI",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 75,
+            "order": 4
+        },
+        {
+            "name": "Hugging Face",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 85,
+            "order": 5
+        },
+        {
+            "name": "PyTorch",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 70,
+            "order": 6
+        },
+        {
+            "name": "TensorFlow",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 70,
+            "order": 7
+        },
+        {
+            "name": "N8N",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 85,
+            "order": 8
+        },
+        {
+            "name": "ElevenLabs",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 80,
+            "order": 9
+        },
+        {
+            "name": "Twilio",
+            "category": "AI/ML Tools & Frameworks",
+            "proficiency": 75,
+            "order": 10
+        },
+        {
+            "name": "Python",
+            "category": "Programming Languages",
+            "proficiency": 95,
+            "order": 1
+        },
+        {
+            "name": "Java",
+            "category": "Programming Languages",
+            "proficiency": 85,
+            "order": 2
+        },
+        {
+            "name": "JavaScript",
+            "category": "Programming Languages",
+            "proficiency": 90,
+            "order": 3
+        },
+        {
+            "name": "TypeScript",
+            "category": "Programming Languages",
+            "proficiency": 80,
+            "order": 4
+        },
+        {
+            "name": "React",
+            "category": "Frontend Technologies",
+            "proficiency": 90,
+            "order": 1
+        },
+        {
+            "name": "Material UI",
+            "category": "Frontend Technologies",
+            "proficiency": 85,
+            "order": 2
+        },
+        {
+            "name": "Tailwind CSS",
+            "category": "Frontend Technologies",
+            "proficiency": 90,
+            "order": 3
+        },
+        {
+            "name": "Bootstrap",
+            "category": "Frontend Technologies",
+            "proficiency": 80,
+            "order": 4
+        },
+        {
+            "name": "Angular",
+            "category": "Frontend Technologies",
+            "proficiency": 75,
+            "order": 5
+        },
+        {
+            "name": "Spring Boot",
+            "category": "Backend Technologies",
+            "proficiency": 85,
+            "order": 1
+        },
+        {
+            "name": "Spring MVC",
+            "category": "Backend Technologies",
+            "proficiency": 80,
+            "order": 2
+        },
+        {
+            "name": "Hibernate",
+            "category": "Backend Technologies",
+            "proficiency": 80,
+            "order": 3
+        },
+        {
+            "name": "FastAPI",
+            "category": "Backend Technologies",
+            "proficiency": 90,
+            "order": 4
+        },
+        {
+            "name": "Node.js",
+            "category": "Backend Technologies",
+            "proficiency": 85,
+            "order": 5
+        },
+        {
+            "name": "MySQL",
+            "category": "Databases",
+            "proficiency": 85,
+            "order": 1
+        },
+        {
+            "name": "MongoDB",
+            "category": "Databases",
+            "proficiency": 90,
+            "order": 2
+        },
+        {
+            "name": "Qdrant",
+            "category": "Databases",
+            "proficiency": 85,
+            "order": 3
+        },
+        {
+            "name": "Pinecone",
+            "category": "Databases",
+            "proficiency": 80,
+            "order": 4
+        },
+        {
+            "name": "Redis",
+            "category": "Databases",
+            "proficiency": 75,
+            "order": 5
+        },
+        {
+            "name": "Docker",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 85,
+            "order": 1
+        },
+        {
+            "name": "Git/GitHub",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 90,
+            "order": 2
+        },
+        {
+            "name": "Postman",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 85,
+            "order": 3
+        },
+        {
+            "name": "IntelliJ",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 80,
+            "order": 4
+        },
+        {
+            "name": "VS Code",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 95,
+            "order": 5
+        },
+        {
+            "name": "Jenkins",
+            "category": "Tools/IDEs/Technologies",
+            "proficiency": 70,
+            "order": 6
+        }
+    ],
+    "projects": [
+        {
+            "title": "WISHAI - RAG Chatbot",
+            "description": "Built a RAG-based chatbot to solve the problem of scattered information by enabling fast, accurate resource discovery using retrieval-augmented generation.",
+            "detailDescription": "WISHAI is an advanced Retrieval-Augmented Generation (RAG) chatbot designed to centralize and retrieve scattered organizational knowledge. It solves the critical problem of information silos by providing a unified interface for querying documents, wikis, and databases.\n\nThe system utilizes Qdrant for vector storage and semantic search, ensuring high-precision retrieval of context. It employs a dynamic LLM selection mechanism to optimize for cost and performance, routing simple queries to faster models and complex reasoning tasks to more capable ones.\n\nKey capabilities include source citation for every answer, preserving data provenance, and a React-based conversational UI that supports rich text rendering. Guardrails are implemented to ensure safety and relevance of generated responses.",
+            "technologies": [
+                "React",
+                "Python",
+                "FastAPI",
+                "Qdrant",
+                "LangGraph",
+                "LangChain",
+                "PostgreSQL"
+            ],
+            "features": [
+                "Implemented embeddings and Qdrant vector search for precise semantic retrieval",
+                "Dynamic LLM selection and caching mechanisms to reduce token usage",
+                "Input and output guardrails for safe, structured interactions",
+                "React-based frontend for agent workflows and chat interfaces"
+            ],
+            "category": "AI/ML",
+            "featured": true,
+            "order": 1
+        },
+        {
+            "title": "Metropolitan Planning Organization",
+            "description": "Voice agent for US users to find train and road data (Amtrak and Caltrans). Acts as a friendly, conversational travel assistant helping users plan trips using real-time data.",
+            "detailDescription": "This voice agent acts as a friendly, conversational travel assistant that helps users plan trips using real-time Amtrak train data and California road traffic data (Caltrans). It gives quick, natural, and concise responses — just like texting a friend — providing details such as the next available train, expected arrival time (including delays), or the fastest driving route with any current incidents or closures.\n\nWhen users ask for combined trips (like driving to a station before catching a train), it automatically calculates drive time plus train connection timing to offer a seamless travel plan. If the user's request is unclear (e.g., missing a city or destination), it casually asks for clarification instead of guessing. The agent stays strictly focused on train and road travel, responding in a simple, friendly tone without unnecessary formalities or extra suggestions.",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "LangGraph",
+                "Gemini LLM",
+                "ElevenLabs",
+                "Twilio",
+                "Sonix",
+                "Syllable.ai"
+            ],
+            "features": [
+                "Real-time Amtrak train data with delays and arrival times",
+                "California road traffic data integration (Caltrans)",
+                "Combined trip planning (driving + train connection timing)",
+                "Natural, conversational responses with casual clarifications"
+            ],
+            "category": "AI/ML",
+            "industry": "Government & Public Services",
+            "subCategory": "Transportation & Mobility",
+            "agentType": "Inbound",
+            "featured": true,
+            "order": 2
+        },
+        {
+            "title": "Medical Agent",
+            "description": "Virtual hospital receptionist for doctor appointment booking. Helps patients book, reschedule, or cancel appointments with automatic doctor recommendations based on symptoms.",
+            "detailDescription": "Our agent is basically a virtual hospital receptionist named Sara. She talks to patients just like a real person would — helping them book, reschedule, or cancel appointments, and even suggests the right doctor based on what problem they describe.\n\nShe's fully integrated with the hospital's system, so if an existing patient calls, she can look up their record, find their last doctor or surgeon, and book a follow-up appointment automatically. For new patients, she collects basic details and recommends a suitable department or doctor.\n\nSara can also answer general hospital questions — like departments, visiting hours, and facilities — and she's smart enough to switch languages (English, Hindi, Gujarati, or Marathi) based on what the caller speaks.\n\nImportantly, she's trained to maintain patient privacy, follow HIPAA guidelines, and never give medical advice — just help with appointments and information. If it's an emergency case, she immediately tells the caller to dial 108.",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "LangGraph",
+                "Gemini LLM",
+                "ElevenLabs",
+                "Twilio",
+                "Sonix",
+                "Pipecat"
+            ],
+            "features": [
+                "Patient record lookup and automatic follow-up booking",
+                "Department and doctor recommendation based on symptoms",
+                "Multilingual support (English, Hindi, Gujarati, Marathi)",
+                "HIPAA-compliant with emergency case handling (108 redirect)"
+            ],
+            "category": "AI/ML",
+            "industry": "Healthcare",
+            "subCategory": "Hospital Operations & Patient Support",
+            "agentType": "Inbound",
+            "featured": true,
+            "order": 3
+        },
+        {
+            "title": "Automated Challenge Platform",
+            "description": "Built end-to-end N8N automation workflows to create a no-code, fully automated challenge-processing pipeline.",
+            "detailDescription": "The Automated Challenge Platform is a no-code solution built with N8N to streamline the creation, submission, and evaluation of user challenges. It replaces manual processing with an intelligent, event-driven workflow that scales automatically.\n\nThe system integrates MongoDB for flexible document storage and Redis for high-speed state management. AWS S3 handles large file uploads securely. A key feature is the integration of Gemini LLM to automatically categorize submissions and generate summary reports for administrators.\n\nThe pipeline includes conditional logic to handle various challenge types (coding, design, writing) differently, ensuring a tailored experience for every participant while minimizing administrative overhead.",
+            "technologies": [
+                "N8N",
+                "MongoDB",
+                "Redis",
+                "AWS S3",
+                "Gemini LLM",
+                "Python",
+                "Node.js",
+                "Docker"
+            ],
+            "features": [
+                "Integrated MongoDB and Redis for persistent storage and high-speed caching",
+                "AWS S3 for document handling and performance optimization",
+                "Gemini LLM for AI-powered summarization and classification",
+                "Modular, reusable workflow components with conditional logic"
+            ],
+            "category": "Automation",
+            "featured": true,
+            "order": 4
+        },
+        {
+            "title": "Hardi Automation",
+            "description": "End-to-end sales outreach automation using N8N for LinkedIn and Email workflows.",
+            "detailDescription": "Hardi Automation is a comprehensive sales outreach system built with N8N to automate the entire lead generation and engagement lifecycle. It seamlessly integrates LinkedIn and Email channels to ensure no opportunity is missed.\n\nThe workflow begins by identifying leads on LinkedIn and sending automated connection requests. Upon acceptance, it triggers a personalized \"Thanks for connecting\" message. The system actively tracks responses: if a lead replies, they receive a detailed email introducing the company's services. If there is no reply, a strategic follow-up message is sent on LinkedIn.\n\nBeyond initial contact, the system tracks email opens and replies, managing a dynamic follow-up cadence. It ensures separate workflows for interested leads versus those who need more nurturing, providing the sales team with a fully automated, high-touch engagement pipeline.",
+            "technologies": [
+                "N8N",
+                "LinkedIn Automation",
+                "Email Services (SMTP/IMAP)",
+                "Webhooks",
+                "Google Sheets"
+            ],
+            "features": [
+                "Automated LinkedIn connection requests and follow-ups",
+                "Conditional workflows for handling replies vs. non-responses",
+                "Cross-channel orchestration (LinkedIn to Email integration)",
+                "Tracking of email opens and replies with automated nurturing"
+            ],
+            "category": "Automation",
+            "featured": true,
+            "order": 5
+        },
+        {
+            "title": "EProcurement System",
+            "description": "Comprehensive procurement management system with end-to-end automation and testing capabilities.",
+            "detailDescription": "The EProcurement System is an enterprise-grade platform designed to digitize and automate the entire procurement lifecycle. From requisition to payment, it ensures transparency, compliance, and efficiency in purchasing workflows.\n\nBuilt with a robust Spring Boot backend and Angular frontend, the system handles complex approval hierarchies and vendor management. It integrates Apache Solr for high-performance product searching and Snyk for continuous security scanning.\n\nA standout feature is the comprehensive test automation suite built with Selenium, ensuring high reliability across releases. The entire application is containerized using Docker, facilitating consistent deployment across development, staging, and production environments.",
+            "technologies": [
+                "Spring Boot",
+                "Angular 11",
+                "Hibernate",
+                "MySQL",
+                "Selenium",
+                "Jenkins",
+                "Apache Solr",
+                "Docker"
+            ],
+            "features": [
+                "End-to-end UI automation test cases using Selenium",
+                "Integration of Docker, Jenkins, Apache Solr, and Snyk",
+                "Successful migration to updated Java and Spring Boot versions",
+                "Direct client collaboration for production issue resolution"
+            ],
+            "category": "Full Stack",
+            "order": 6
+        },
+        {
+            "title": "ConTrack",
+            "description": "Contract lifecycle and client engagement tracking system with advanced security features.",
+            "detailDescription": "ConTrack is a secure Contract Lifecycle Management (CLM) system designed to track client engagements and legal agreements. It provides a centralized repository for contracts, automated renewal alerts, and detailed audit trails.\n\nSecurity is a primary focus, with implementation of CSRF tokens, brute-force protection, and secure SMTP verification for user accounts. The detailed dashboard provides real-time insights into contract valuations and expiry timelines, helping stakeholders make data-driven decisions.\n\nThe application follows strict code quality standards enforced by SonarQube and uses Hibernate for efficient ORM mapping, ensuring data integrity and performance even with large datasets.",
+            "technologies": [
+                "Spring Boot",
+                "React",
+                "Hibernate",
+                "MySQL",
+                "Selenium"
+            ],
+            "features": [
+                "SMTP services for email verification",
+                "CSRF token implementation for POST requests",
+                "Brute force prevention mechanisms",
+                "RESTful web services with SonarQube code quality standards",
+                "Advanced dashboards for valuation insights"
+            ],
+            "category": "Full Stack",
+            "order": 7
+        },
+        {
+            "title": "SalesBridge",
+            "description": "Sales automation platform with web scraping and professional email verification.",
+            "detailDescription": "SalesBridge is a sales acceleration tool that automates lead generation and verification. It combines web scraping capabilities with professional email validation to provide high-quality prospect lists to sales teams.\n\nThe platform uses Jsoup and Selenium to ethically extract public business data, which is then verified through a custom email validation logic to reduce bounce rates. The Spring Boot backend exposes RESTful APIs consumed by a responsive React frontend.\n\nDeployed via Docker, SalesBridge offers a scalable solution for sales teams to build and manage their pipelines effectively, saving hours of manual research time.",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "React",
+                "MySQL",
+                "Docker",
+                "Selenium",
+                "Jsoup"
+            ],
+            "features": [
+                "RESTful APIs using Spring Boot",
+                "Web data extraction using Selenium and Jsoup",
+                "Docker containerization for seamless deployment",
+                "Professional email verification logic",
+                "Reusable React UI components"
+            ],
+            "category": "Full Stack",
+            "order": 8
+        },
+        {
+            "title": "Loan Recovery Agent",
+            "description": "Dual-scenario voice agent managing overdue loans and missed EMI recoveries through polite, persuasive outbound calls with flexible payment negotiation.",
+            "detailDescription": "This voice agent is designed to handle two key loan recovery scenarios — pending loan payments and missed EMIs - through smart, polite outbound calls.\n\nIn the first scenario (Pending Loan):\n\nThis voice agent automatically calls customers who have pending personal loan payments and politely persuades them to clear dues as quickly as possible. It begins by selecting a customer record, confirms their identity, and explains the loan details and outstanding amount.\n\nThe agent first encourages full repayment immediately, but if the customer cannot pay in one go, it negotiates step-by-step - offering flexible EMI plans (2–6 months) while clearly explaining the 2% monthly interest and payment schedule. It dynamically calculates EMI amounts, updates all details (like expected recovery date, payment method, and remarks).\n\nIn the second scenario (Missed EMI):\n\nThis agent calls customers who have missed their latest EMI payment to remind and urge them to pay immediately - preferably today or by tomorrow. It automatically fetches a customer record, confirms their details, and clearly informs them about the missed EMI amount and due date.\n\nIf the customer agrees to pay, it confirms the date and updates the recovery record instantly. If they cannot pay, it logs the reason and flags the case for follow-up or escalation. The agent never offers EMI options or alternate plans - its focus is immediate recovery with polite urgency and compliance.",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "LangGraph",
+                "Gemini LLM",
+                "ElevenLabs",
+                "Twilio",
+                "Sonix",
+                "Pipecat"
+            ],
+            "features": [
+                "Pending loan recovery with flexible EMI plan negotiation (2-6 months)",
+                "Dynamic EMI calculation with 2% monthly interest",
+                "Missed EMI reminders with immediate payment urgency",
+                "Automated record updates and escalation flagging"
+            ],
+            "category": "AI/ML",
+            "industry": "Banking & Financial Services (BFSI)",
+            "subCategory": "Collections & Recovery",
+            "agentType": "Outbound",
+            "featured": true,
+            "order": 9
+        },
+        {
+            "title": "Insurance Claim Agent",
+            "description": "Intelligent conversational agent for traffic insurance claims. Guides drivers through accident reporting and claim status tracking.",
+            "detailDescription": "This intelligent conversational agent acts as a polite and empathetic virtual assistant for handling traffic insurance claims under the Turkey Traffic Policy. It guides drivers step-by-step after an accident or when they want to check an existing claim.\n\nWhen a driver reports an accident, the agent first expresses concern and ensures the caller is safe. It then verifies the policyholder's identity using their registered mobile number and date of birth, confirms their vehicle and policy details, and gathers all essential information about the accident — including the location, date, time, and description of the incident. Based on the driver's explanation, the agent automatically determines who was at fault and proceeds accordingly.\n\nNext, it collects details about the other driver involved, such as their mobile number, insurance company, and policy number. Once all the required information is complete, the agent automatically creates a new insurance claim under the Turkey Traffic Policy, generates a unique claim number, and sends an email confirmation with document upload instructions.\n\nFor drivers who want to check the status of an existing claim, the agent asks for the claim number, verifies the date of birth, retrieves the record, and clearly explains whether the claim is Documents Pending, Under Review, Verified, or Completed. It provides the appropriate next steps for each status.",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "LangGraph",
+                "Gemini LLM",
+                "ElevenLabs",
+                "Twilio",
+                "Insurance Management System"
+            ],
+            "features": [
+                "Step-by-step accident reporting with automatic fault determination",
+                "Complete claim creation with unique claim number generation",
+                "Email confirmation with document upload instructions",
+                "Claim status tracking (Documents Pending, Under Review, Verified, Completed)"
+            ],
+            "category": "AI/ML",
+            "industry": "Insurance",
+            "subCategory": "Motor / Traffic Insurance Claims",
+            "agentType": "Inbound",
+            "featured": true,
+            "order": 10
+        },
+        {
+            "title": "Order Booking Assistant",
+            "description": "Virtual shopping assistant helping customers browse products, manage carts, choose delivery options, and place orders through natural conversation.",
+            "detailDescription": "This smart voice agent acts as a virtual shopping assistant for the JS Web Store, helping customers browse, add products to their cart, choose delivery options, and place an order quote — all through natural conversation.\n\nIt begins by greeting the customer, collects their email address, and fetches product details using the product lookup tool. After confirming quantity and price, it builds a cart list, calculates order total, tax and grand total, then asks for the preferred delivery type — either Pickup (suggesting the nearest store) or Ship to Home (confirming address).\n\nFinally, it summarizes the full order, confirms before placing it, and calls the order tool to generate and email the final order quote.",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "LangGraph",
+                "Gemini LLM",
+                "ElevenLabs",
+                "Twilio",
+                "eCommerce API",
+                "Syllable.ai",
+                "Sonix"
+            ],
+            "features": [
+                "Product lookup with quantity and price confirmation",
+                "Dynamic cart management with tax and total calculation",
+                "Delivery options: Pickup (nearest store) or Ship to Home",
+                "Order quote generation with email confirmation"
+            ],
+            "category": "AI/ML",
+            "industry": "Retail & eCommerce",
+            "subCategory": "Online Store Assistance & Order Processing",
+            "agentType": "Inbound",
+            "featured": true,
+            "order": 11
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Technology",
+            "field": "Information Technology",
+            "institution": "University Name",
+            "order": 1
+        }
+    ]
+}

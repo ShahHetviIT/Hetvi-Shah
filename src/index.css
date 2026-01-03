@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 transition-colors duration-300;
+  }
+
+  body.dark {
+    @apply bg-slate-950 text-gray-100;
+  }
+
+  * {
+    @apply scroll-smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  .dark ::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-primary-500 to-accent-500 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply from-primary-400 to-accent-400;
+  }
+}
+
+@layer components {
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 via-primary-500 to-accent-500 bg-clip-text text-transparent;
+    background-size: 200% auto;
+    animation: gradient 3s linear infinite;
+  }
+
+  /* Glass Effect */
+  .glass-effect {
+    @apply backdrop-blur-xl border shadow-xl;
+    background: rgba(255, 255, 255, 0.8);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .dark .glass-effect {
+    background: rgba(30, 41, 59, 0.3);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  /* Primary Button */
+  .btn-primary {
+    @apply px-6 py-3 bg-primary-500 text-white rounded-lg font-medium;
+    @apply hover:bg-primary-600 transform hover:scale-105 hover:-translate-y-1;
+    @apply transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-primary-500/50;
+    @apply relative overflow-hidden;
+  }
+
+  .btn-primary::before {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 2s infinite;
+  }
+
+  /* Secondary Button */
+  .btn-secondary {
+    @apply px-6 py-3 bg-white dark:bg-slate-800 text-primary-600 dark:text-primary-400 rounded-lg font-medium;
+    @apply hover:bg-gray-50 dark:hover:bg-slate-700 transform hover:scale-105 transition-all duration-300;
+    @apply border-2 border-primary-500 hover:border-primary-600 hover:shadow-lg hover:shadow-primary-500/30;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white dark:bg-slate-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300;
+    @apply border border-gray-200 dark:border-slate-700 hover:border-primary-500/50;
+  }
+
+  .card-hover {
+    @apply card hover:-translate-y-2 hover:shadow-primary-500/20;
+    @apply transform transition-all duration-300;
+  }
+
+  .dark .card-hover {
+    @apply hover:shadow-primary-500/40;
+  }
+
+  /* Section Title */
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold font-display mb-4 animate-fade-in-up;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-block px-3 py-1 bg-gradient-to-r from-primary-500 to-accent-500;
+    @apply text-white text-sm rounded-full font-medium shadow-lg shadow-primary-500/30;
+    @apply animate-pulse-slow;
+  }
+
+  /* Skill Tag */
+  .skill-tag {
+    @apply px-3 py-1 bg-gray-100 dark:bg-slate-700 text-sm rounded-full;
+    @apply text-gray-700 dark:text-gray-300;
+    @apply hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400;
+    @apply hover:border hover:border-primary-500/50;
+    @apply transition-all duration-300 cursor-default;
+  }
+
+  /* Input Fields */
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg;
+    @apply border border-gray-300 dark:border-slate-600;
+    @apply bg-white dark:bg-slate-800 text-gray-900 dark:text-gray-100;
+    @apply focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+    @apply outline-none transition-all duration-300;
+    @apply placeholder:text-gray-400 dark:placeholder:text-gray-500;
+  }
+
+  /* Textarea */
+  .textarea-field {
+    @apply input-field resize-none;
+  }
+
+  /* Glow Effect */
+  .glow-effect {
+    @apply shadow-lg shadow-primary-500/50;
+  }
+
+  .dark .glow-effect {
+    @apply shadow-primary-500/30;
+  }
+
+  /* Hover Glow */
+  .hover-glow {
+    @apply hover:shadow-xl hover:shadow-primary-500/40 transition-shadow duration-300;
+  }
+
+  /* Floating Animation */
+  .float-animation {
+    @apply animate-float;
+  }
+
+  /* Project Card */
+  .project-card {
+    @apply card-hover relative overflow-hidden;
+  }
+
+  .project-card::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-primary-500/10 to-transparent;
+    @apply opacity-0 transition-opacity duration-300;
+  }
+
+  .project-card:hover::after {
+    @apply opacity-100;
+  }
+
+  /* Skill Progress Bar */
+  .skill-progress {
+    @apply h-2 bg-gray-200 dark:bg-slate-700 rounded-full overflow-hidden;
+  }
+
+  .skill-progress-fill {
+    @apply h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full;
+    @apply shadow-lg shadow-primary-500/50 transition-all duration-1000;
+  }
+
+  /* Icon Container */
+  .icon-container {
+    @apply w-12 h-12 bg-gradient-to-r from-primary-500 to-accent-500;
+    @apply rounded-lg flex items-center justify-center;
+    @apply shadow-lg shadow-primary-500/30;
+    transition: transform 0.3s;
+  }
+
+  .icon-container:hover {
+    transform: scale(1.1);
+  }
+
+  /* Highlight Card */
+  .highlight-card {
+    @apply card-hover p-6 relative overflow-hidden;
+  }
+
+  .highlight-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 to-accent-500;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
+
+  .highlight-card:hover::before {
+    transform: translateX(0);
+  }
+}
+
+/* Selection Color */
+::selection {
+  @apply bg-primary-500 text-white;
+}
+
+::-moz-selection {
+  @apply bg-primary-500 text-white;
+}
+
+/* Focus Visible */
+*:focus-visible {
+  @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+}
+
+.dark *:focus-visible {
+  @apply ring-offset-slate-900;
+}
+
+/* Loading Spinner */
+.spinner {
+  @apply animate-spin rounded-full border-4 border-gray-200 border-t-primary-500;
+}
+
+.dark .spinner {
+  @apply border-slate-700;
+}
+
+/* Skeleton Loading */
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+.dark .skeleton {
+  @apply bg-slate-700;
+}
+
+/* Page Transition */
+.page-transition {
+  @apply animate-fade-in-up;
+}
+
+/* Stagger Animation */
+.stagger-item {
+  @apply animate-fade-in-up;
+}
+
+.stagger-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.stagger-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.stagger-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.stagger-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.stagger-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.stagger-item:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* Responsive Text */
+@media (max-width: 640px) {
+  .section-title {
+    @apply text-3xl;
+  }
+}
+
+/* Light mode background pattern */
+.light-pattern {
+  background-image:
+    radial-gradient(at 40% 20%, rgba(59, 130, 246, 0.05) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(14, 165, 233, 0.05) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(59, 130, 246, 0.03) 0px, transparent 50%);
+}
+
+/* Dark mode background pattern */
+.dark-pattern {
+  background-image:
+    radial-gradient(at 40% 20%, rgba(59, 130, 246, 0.1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(14, 165, 233, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(59, 130, 246, 0.05) 0px, transparent 50%);
+}
