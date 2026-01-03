@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiExternalLink, FiGithub, FiX, FiFilter } from 'react-icons/fi';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { projectsAPI, profileAPI } from '../services/api';
 
 const ProjectsPage = () => {
@@ -35,6 +36,12 @@ const ProjectsPage = () => {
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+            <SEO
+                title="Projects Portfolio | Hetvi Shah"
+                description="Explore Hetvi Shah's portfolio of GenAI and full-stack development projects including RAG chatbots, voice agents, and intelligent applications across Healthcare, BFSI, Insurance, and Retail industries."
+                keywords="GenAI Projects, AI Projects Portfolio, RAG Chatbot, Voice Agents, Full-Stack Projects, AI Applications"
+                url="/projects"
+            />
             <Navbar />
 
             <main className="flex-1 pt-24 pb-16 bg-white dark:bg-slate-950">

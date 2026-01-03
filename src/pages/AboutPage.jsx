@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { FiAward, FiCode, FiZap, FiHeart, FiTarget, FiTrendingUp } from 'react-icons/fi';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { profileAPI } from '../services/api';
 
 const AboutPage = () => {
@@ -66,6 +67,12 @@ const AboutPage = () => {
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+            <SEO
+                title="About Hetvi Shah | GenAI Engineer"
+                description="Learn about Hetvi Shah's professional journey, expertise in GenAI, AI/ML, and full-stack development. Experienced in building production-ready AI solutions across Healthcare, BFSI, Insurance, and Retail."
+                keywords="About Hetvi Shah, GenAI Engineer Biography, AI Engineer Experience, Machine Learning Expert, Full-Stack Developer Portfolio"
+                url="/about"
+            />
             <Navbar />
 
             <main className="flex-1 pt-24 pb-16 bg-white dark:bg-slate-950">

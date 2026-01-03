@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import SEO from '../components/SEO';
 import { profileAPI, projectsAPI } from '../services/api';
 
 const HomePage = () => {
@@ -55,6 +56,12 @@ const HomePage = () => {
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+            <SEO
+                title="Hetvi Shah | GenAI Engineer & Full-Stack Developer"
+                description="Hetvi Shah is a GenAI Engineer specializing in building intelligent RAG chatbots, voice agents, and LLM applications. Explore my portfolio of innovative AI and full-stack development projects."
+                keywords="Hetvi Shah, GenAI Engineer, AI Engineer, Machine Learning, LLM, RAG Chatbots, Voice Agents, Full-Stack Developer, React, Node.js, Spring Boot, AI Projects"
+                url="/"
+            />
             <Navbar />
 
             {/* Hero Section */}

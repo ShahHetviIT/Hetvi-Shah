@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { skillsAPI, profileAPI } from '../services/api';
 
 const SkillsPage = () => {
@@ -42,6 +43,12 @@ const SkillsPage = () => {
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+            <SEO
+                title="Technical Skills & Expertise | Hetvi Shah"
+                description="Explore Hetvi Shah's technical skills and expertise across GenAI, AI/ML frameworks, full-stack development, and modern technologies including LangChain, React, Node.js, and Spring Boot."
+                keywords="Technical Skills, GenAI Skills, AI ML Frameworks, LangChain, LangGraph, React, Node.js, Spring Boot, Full-Stack Skills"
+                url="/skills"
+            />
             <Navbar />
 
             <main className="flex-1 pt-24 pb-16 bg-white dark:bg-slate-950">

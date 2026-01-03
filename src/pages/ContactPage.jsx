@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiPhone, FiSend, FiGithub, FiLinkedin } from 'react-icons/fi';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { profileAPI } from '../services/api';
 
 const ContactPage = () => {
@@ -38,6 +39,12 @@ const ContactPage = () => {
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+            <SEO
+                title="Contact Hetvi Shah | Get in Touch"
+                description="Get in touch with Hetvi Shah for GenAI projects, AI consulting, or full-stack development opportunities. Connect via email, phone, or social media."
+                keywords="Contact Hetvi Shah, GenAI Engineer Contact, AI Project Collaboration, Hire GenAI Engineer"
+                url="/contact"
+            />
             <Navbar />
 
             <main className="flex-1 pt-24 pb-16 bg-white dark:bg-slate-950">
